@@ -79,9 +79,6 @@ Join us in making **Medicare** better! 🚀
 3. Implement your changes and push your branch.
 4. Submit a **Pull Request** for review.
 
-## 📜 License
-Licensed under the **MIT License** – use, modify, and distribute freely with proper attribution.
-
 ## 📬 Let’s Connect!
 
 Need to reach out? I’d love to hear from you! While I’m available on multiple platforms, **Telegram is the fastest way to get in touch**. Feel free to connect through any of the following:
