@@ -7,11 +7,20 @@ Imagine a world where healthcare is seamless, accessible, and hassle-free. **Med
 To revolutionize the healthcare experience by integrating technology, making medical assistance available at your fingertips.
 
 ## 🚀 Key Features
-✅ **Effortless User Management** - Secure registration, profile management, and authentication.
-✅ **Find & Book Doctors** - Advanced search filters to find top-rated specialists and book appointments instantly.
-✅ **Real-time Notifications** - Get timely reminders about your upcoming appointments and health updates.
-✅ **Integrated Payment System** - Seamless and secure transactions for hassle-free payments.
-✅ **Health Insights & Reports** - Access and manage your medical records in one place.
+✅ **Effortless User Management**  
+Secure registration, profile management, and authentication.
+
+✅ **Find & Book Doctors**  
+Advanced search filters to find top-rated specialists and book appointments instantly.
+
+✅ **Real-time Notifications**  
+Get timely reminders about your upcoming appointments and health updates.
+
+✅ **Integrated Payment System**  
+Seamless and secure transactions for hassle-free payments.
+
+✅ **Health Insights & Reports**  
+Access and manage your medical records in one place.
 
 ## 🔧 Tech Stack
 - **Backend:** Django / Flask
@@ -65,11 +74,11 @@ Licensed under the **MIT License** – use, modify, and distribute freely with p
 ## 📬 Let’s Connect!
 Need to reach out? I’d love to hear from you! While I’m available on multiple platforms, **Telegram is the fastest way to get in touch**. Feel free to connect through any of the following:
 
-📩 **Telegram:** [@its_Mhmod](https://t.me/its_Mhmod) *(Preferred & Quickest Response)*
-🐦 **Twitter/X:** [@Its_Mhmod](https://x.com/lts_Mhmod)
-🐙 **GitHub:** [Itsmhmod](https://github.com/Itsmhmod)
-📘 **Facebook:** [Its Mhmod](https://www.facebook.com/its.mhmood)
-💼 **LinkedIn:** [Its Mhmod](https://www.linkedin.com/in/its-mhmod)
+📩 **Telegram:** [@its_Mhmod](https://t.me/its_Mhmod) *(Preferred & Quickest Response)*  
+🐦 **Twitter/X:** [@Its_Mhmod](https://x.com/lts_Mhmod)  
+🐙 **GitHub:** [Itsmhmod](https://github.com/Itsmhmod)  
+📘 **Facebook:** [Its Mhmod](https://www.facebook.com/its.mhmood)  
+💼 **LinkedIn:** [Its Mhmod](https://www.linkedin.com/in/its-mhmod)  
 
 ---
 ✨ **Medicare - Empowering Healthcare, One Click at a Time!** ✨
