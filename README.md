@@ -7,27 +7,21 @@ Imagine a world where healthcare is seamless, accessible, and hassle-free. **Med
 To revolutionize the healthcare experience by integrating technology, making medical assistance available at your fingertips.
 
 ## 🚀 Key Features
-✅ **Effortless User Management**  
-Secure registration, profile management, and authentication.
-
-✅ **Find & Book Doctors**  
-Advanced search filters to find top-rated specialists and book appointments instantly.
-
-✅ **Real-time Notifications**  
-Get timely reminders about your upcoming appointments and health updates.
-
-✅ **Integrated Payment System**  
-Seamless and secure transactions for hassle-free payments.
-
-✅ **Health Insights & Reports**  
-Access and manage your medical records in one place.
+✅ **Effortless User Management** - Secure registration, profile management, and authentication.  
+✅ **Find & Book Doctors** - Advanced search filters to find top-rated specialists and book appointments instantly.  
+✅ **Real-time Notifications** - Get timely reminders about your upcoming appointments and health updates.  
+✅ **Integrated Payment System** - Seamless and secure transactions for hassle-free payments.  
+✅ **Health Insights & Reports** - Access and manage your medical records in one place.  
 
 ## 🔧 Tech Stack
-- **Backend:** Django / Flask
-- **Frontend:** React / Vue.js
-- **Database:** PostgreSQL / MySQL
-- **Authentication:** OAuth / JWT
-- **Cloud & Hosting:** AWS / Heroku
+- **Backend:** Laravel (PHP)  
+- **Frontend:** Vue.js  
+- **Database:** MySQL  
+- **Authentication:** OAuth / JWT  
+- **Cloud & Hosting:** AWS / Heroku  
+
+## 🏆 Project Accreditation
+This project was developed as part of the **Ministry of Communications and Information Technology’s Digital Egypt Pioneers Program**. It was successfully completed under the **Software Development - PHP Web Developer Job Profile** training program.
 
 ## 🛠️ Installation & Setup
 Follow these steps to get started with Medicare:
@@ -37,25 +31,36 @@ git clone https://github.com/Itsmhmod/Medicare.git
 cd Medicare
 
 # Install dependencies
-pip install -r requirements.txt
+composer install
+npm install
 
-# Run the application
-python manage.py runserver
+# Set up environment variables
+cp .env.example .env
+php artisan key:generate
+
+# Run migrations
+php artisan migrate --seed
+
+# Start the development server
+php artisan serve
 ```
 Then visit: `http://127.0.0.1:8000/`
 
 ## 📂 Project Structure
 ```
 Medicare/
-│── core/           # Main application logic
-│── static/         # CSS, JavaScript, and images
-│── templates/      # HTML templates
-│── api/            # REST API endpoints
-│── auth/           # User authentication module
-│── payments/       # Payment processing logic
-│── manage.py       # Project execution file
-│── requirements.txt # List of dependencies
-└── README.md       # Documentation
+│── app/            # Laravel application logic
+│── public/         # Public assets (CSS, JS, images)
+│── resources/      # Views & Blade templates
+│── routes/         # Web & API routes
+│── database/       # Migrations & seeders
+│── config/         # Application configuration
+│── storage/        # Logs, cache, and uploads
+│── tests/          # Automated tests
+│── artisan         # Laravel CLI tool
+│── composer.json   # PHP dependencies
+│── package.json    # Frontend dependencies
+│── README.md       # Documentation
 ```
 
 ## 🤝 Contributing
