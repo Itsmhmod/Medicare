@@ -24,7 +24,9 @@ To revolutionize the healthcare experience by integrating technology, making med
 This project was developed as part of the **Ministry of Communications and Information Technology’s Digital Egypt Pioneers Program**. It was successfully completed under the **Software Development - PHP Web Developer Job Profile** training program.
 
 ## 🛠️ Installation & Setup
-Follow these steps to get started with Medicare:
+
+### Installation
+Follow these steps to set up the project:
 ```bash
 # Clone the repository
 git clone https://github.com/Itsmhmod/Medicare.git
@@ -33,7 +35,11 @@ cd Medicare
 # Install dependencies
 composer install
 npm install
+```
 
+### Setup
+Configure the project with the following steps:
+```bash
 # Set up environment variables
 cp .env.example .env
 php artisan key:generate
@@ -77,6 +83,7 @@ Join us in making **Medicare** better! 🚀
 Licensed under the **MIT License** – use, modify, and distribute freely with proper attribution.
 
 ## 📬 Let’s Connect!
+
 Need to reach out? I’d love to hear from you! While I’m available on multiple platforms, **Telegram is the fastest way to get in touch**. Feel free to connect through any of the following:
 
 📩 **Telegram:** [@its_Mhmod](https://t.me/its_Mhmod) *(Preferred & Quickest Response)*  
