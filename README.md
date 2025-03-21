@@ -3,22 +3,35 @@
 ## 🌟 About Medicare
 Imagine a world where healthcare is seamless, accessible, and hassle-free. **Medicare** is designed to bridge the gap between patients and healthcare providers, offering a smart, user-friendly solution to manage medical needs efficiently.
 
-### 🎯 Our Mission
-To revolutionize the healthcare experience by integrating technology, making medical assistance available at your fingertips.
+## 🎯 Our Mission
+To **revolutionize** the healthcare experience by integrating technology, making **medical assistance** accessible at your fingertips while enhancing hospital management efficiency.
+
 
 ## 🚀 Key Features
-✅ **Effortless User Management** - Secure registration, profile management, and authentication.  
-✅ **Find & Book Doctors** - Advanced search filters to find top-rated specialists and book appointments instantly.  
-✅ **Real-time Notifications** - Get timely reminders about your upcoming appointments and health updates.  
-✅ **Integrated Payment System** - Seamless and secure transactions for hassle-free payments.  
-✅ **Health Insights & Reports** - Access and manage your medical records in one place.  
+✅ **Effortless User Management** - Secure registration, profile management, and authentication for patients, doctors, and administrators.  
+✅ **Smart Appointment Booking** - Advanced search filters to find top-rated specialists and book appointments instantly with **email & real-time notifications**.  
+✅ **Medical Record Management** - Search, filter, and access **patient health records** securely in one place.  
+✅ **Interactive Dashboard** - Detailed **statistics & reports** for efficient hospital administration.  
+✅ **Multi-language Support** - Accessible to a wider **user base** globally.  
+✅ **Integrated Payment System** - Secure online transactions for medical services.  
+✅ **Automated Data Backup** - Ensuring data security and integrity.  
+✅ **Advanced Search Capabilities** - Locate medical records, doctors, and users efficiently. 
 
 ## 🔧 Tech Stack
 - **Backend:** Laravel (PHP)  
-- **Frontend:** Vue.js  
-- **Database:** MySQL  
-- **Authentication:** OAuth / JWT  
+- **Frontend:** Vue.js & Blade (Tailwind CSS)  
+- **Database:** MySQL / PostgreSQL  
+- **Authentication:** OAuth / JWT / Laravel Breeze  
 - **Cloud & Hosting:** AWS / Heroku  
+- **API:** Laravel Sanctum for authentication and session management  
+- **Testing:** PHPUnit, Laravel Dusk
+
+  ## 🔧 Requirements
+- **Operating System:** Windows / Linux / macOS  
+- **Development Environment:** XAMPP / Laravel Sail (Docker)  
+- **PHP Version:** 8.0 or later  
+- **Database:** MySQL / PostgreSQL  
+- **Web Server:** Apache / Nginx  
 
 ## 🏆 Project Accreditation
 This project was developed as part of the **Ministry of Communications and Information Technology’s Digital Egypt Pioneers Program**. It was successfully completed under the **Software Development - PHP Web Developer Job Profile** training program.
@@ -34,28 +47,32 @@ cd Medicare
 
 # Install dependencies
 composer install
-npm install
+npm install && npm run build
 ```
 
 ### Setup
-Configure the project with the following steps:
 ```bash
 # Set up environment variables
 cp .env.example .env
 php artisan key:generate
 
-# Run migrations
+# Configure database
+mysql -u root -p < medicare.sql
 php artisan migrate --seed
 
 # Start the development server
 php artisan serve
+```
+🚀 **To run the application inside Docker using Laravel Sail:**
+```bash
+./vendor/bin/sail up -d
 ```
 Then visit: `http://127.0.0.1:8000/`
 
 ## 📂 Project Structure
 ```
 Medicare/
-│── app/            # Laravel application logic
+│── app/        # Laravel application logic (Models, Controllers, Middleware)
 │── public/         # Public assets (CSS, JS, images)
 │── resources/      # Views & Blade templates
 │── routes/         # Web & API routes
@@ -69,15 +86,26 @@ Medicare/
 │── README.md       # Documentation
 ```
 
-## 🤝 Contributing
-Join us in making **Medicare** better! 🚀
-1. **Fork** the repository.
-2. Create a feature branch:
-   ```bash
-   git checkout -b feature-branch
-   ```
-3. Implement your changes and push your branch.
-4. Submit a **Pull Request** for review.
+## 📌 Useful Commands
+
+🔄 **Reset database:**
+```bash
+php artisan migrate:fresh --seed
+```
+
+⚡ **Clear cache and optimize performance:**
+```bash
+php artisan cache:clear
+php artisan config:clear
+php artisan route:clear
+php artisan view:clear
+```
+
+🔍 **Run tests:**
+```bash
+php artisan test
+```
+
 
 ## 📬 Let’s Connect!
 
