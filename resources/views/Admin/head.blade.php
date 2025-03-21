@@ -1,6 +1,6 @@
 <head>
     <base href="">
-    <title>Medicare</title>
+    <title>Medicare | Dashboard</title>
     <meta charset="utf-8" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -13,6 +13,7 @@
     <link href="{{ asset('Admin/plugins/custom/datatables/datatables.bundle.css') }}" rel="stylesheet"
         type="text/css" />
     <link rel="stylesheet" href="{{ asset('Admin/css/style-ltr.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">

@@ -27,11 +27,13 @@
                                         </svg>
                                     </span>
                                     <!--end::Svg Icon-->
+                                    <a href="{{ route('patient.index') }}" class="text-decoration-none">
                                     <div class="text-white fw-bolder fs-4 mb-2 mt-5">
                                         Total Patients
                                     </div>
                                     <div class="fw-bold fs-2 fw-bolder text-white">{{ $patient }}</div>
                                 </div>
+                                </a>
                                 <!--end::Body-->
                             </div>
                             <!--end::Statistics Widget 5-->
@@ -51,11 +53,14 @@
 
                                     </span>
                                     <!--end::Svg Icon-->
+                                    <a href="{{ route('bookAppointment.index') }}" class="text-decoration-none">
+
                                     <div class="text-white fw-bolder fs-4 mb-2 mt-5">
                                         Total Appointments
                                     </div>
                                     <div class="fw-bold fs-2 fw-bolder text-white">{{ $bookappointment }}</div>
                                 </div>
+                                </a>
                                 <!--end::Body-->
                             </div>
                             <!--end::Statistics Widget 5-->
@@ -74,11 +79,14 @@
                                         </svg>
                                     </span>
                                     <!--end::Svg Icon-->
+                                    <a href="{{ route('prescription.index') }}" class="text-decoration-none">
+
                                     <div class="text-white fw-bolder fs-4 mb-2 mt-5">
                                         Total prescriptions
                                     </div>
                                     <div class="fw-bold fs-2 fw-bolder text-white">{{ $prescription }}</div>
                                 </div>
+                                </a>
                                 <!--end::Body-->
                             </div>
                             <!--end::Statistics Widget 5-->
@@ -97,11 +105,13 @@
                                         </svg>
                                     </span>
                                     <!--end::Svg Icon-->
+                                    <a href="{{ route('treatment.index') }}" class="text-decoration-none">
                                     <div class="text-white fw-bolder fs-4 mb-2 mt-5">
                                         Total Treatments
                                     </div>
                                     <div class="fw-bold fs-2 fw-bolder text-white">{{ $Treatments }}</div>
                                 </div>
+                                </a>
                                 <!--end::Body-->
                             </div>
                             <!--end::Statistics Widget 5-->
@@ -120,11 +130,13 @@
                                         </svg>
                                     </span>
                                     <!--end::Svg Icon-->
+                                    <a href="{{ route('medicalTests.index') }}" class="text-decoration-none">
                                     <div class="text-white fw-bolder fs-4 mb-2 mt-5">
                                         Total Medical Tests
                                     </div>
                                     <div class="fw-bold fs-2 fw-bolder text-white">{{ $medicaltest }}</div>
                                 </div>
+                                </a>
                                 <!--end::Body-->
                             </div>
                             <!--end::Statistics Widget 5-->
@@ -143,11 +155,14 @@
                                         </svg>
                                     </span>
                                     <!--end::Svg Icon-->
+                                    <a href="{{ route('blog.index') }}" class="text-decoration-none">
+
                                     <div class="text-white fw-bolder fs-4 mb-2 mt-5">
                                         Total Blog
                                     </div>
                                     <div class="fw-bold fs-2 fw-bolder text-white">{{ $blog }}</div>
                                 </div>
+                                </a>
                                 <!--end::Body-->
                             </div>
                             <!--end::Statistics Widget 5-->
@@ -166,11 +181,14 @@
                                         </svg>
                                     </span>
                                     <!--end::Svg Icon-->
+                                    <a href="{{ route('clientReview.index') }}" class="text-decoration-none">
+
                                     <div class="text-white fw-bolder fs-4 mb-2 mt-5">
                                         Total Client Review
                                     </div>
                                     <div class="fw-bold fs-2 fw-bolder text-white">{{ $clientreview }}</div>
                                 </div>
+                                </a>
                                 <!--end::Body-->
                             </div>
                             <!--end::Statistics Widget 5-->
@@ -190,11 +208,13 @@
                                         </svg>
                                     </span>
                                     <!--end::Svg Icon-->
+                                    <a href="{{ route('doctor.index') }}" class="text-decoration-none">
                                     <div class="text-white fw-bolder fs-4 mb-2 mt-5">
                                         Total Doctors
                                     </div>
                                     <div class="fw-bold fs-2 fw-bolder text-white">{{ $doctor }}</div>
                                 </div>
+                                </a>
                                 <!--end::Body-->
                             </div>
                             <!--end::Statistics Widget 5-->
@@ -236,11 +256,14 @@
                                         </svg>
                                     </span>
                                     <!--end::Svg Icon-->
+                                    <a href="{{ route('specialization.index') }}" class="text-decoration-none">
+
                                     <div class="text-white fw-bolder fs-4 mb-2 mt-5">
                                         Total Specialization
                                     </div>
                                     <div class="fw-bold fs-2 fw-bolder text-white">{{ $specialization }}</div>
                                 </div>
+                                </a>
                                 <!--end::Body-->
                             </div>
                             <!--end::Statistics Widget 5-->

@@ -3,8 +3,7 @@
     <div class="box-container">
         @foreach ($doctors as $doctor)
             <div class="box">
-                <img style="width: 350px; height:350px "
-                    src="{{ asset('Doctor_img/attachments/Doctor_attachments/' . $doctor->image) }}" alt="not found">
+                <img src="{{ asset('Doctor_img/attachments/Doctor_attachments/' . $doctor->image) }}" alt="not found">
                 <h3>{{ $doctor->name }}</h3>
                 <span>{{ $doctor->Specialization->name }}</span>
                 <div class="share">
@@ -15,6 +14,5 @@
                 </div>
             </div>
         @endforeach
-
     </div>
 </section>

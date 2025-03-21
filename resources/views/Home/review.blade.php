@@ -44,7 +44,7 @@
      <h1 class="heading"><span>Add</span> Review</h1>
      <div class="row">
          <div class="image">
-             <img src="./image/book-img.svg" alt="">
+         <img src="{{ asset('home//image/medical-care-animate.svg') }}" alt="">
          </div>
          <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
              <div class="modal-dialog">

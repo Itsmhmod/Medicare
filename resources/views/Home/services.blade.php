@@ -10,9 +10,7 @@
                 <i class="fas fa-notes-medical"></i>
                 <h3>{{ $service->name }}</h3>
                 <p>{{ $service->description }}</p>
-
             </div>
         @endforeach
-
     </div>
 </section>

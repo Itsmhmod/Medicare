@@ -1,3 +1,4 @@
+
 <div id="kt_header" class="header align-items-stretch">
     <!--begin::Brand-->
     <div class="header-brand">
@@ -67,7 +68,9 @@
             <!--begin::Page title-->
             <div class="page-title d-flex flex-column me-5">
                 <!--begin::Title-->
-                <h1 class="d-flex flex-column text-dark fw-bolder fs-3 mb-0"> Medicare|Admin</h1>
+                <h1 class="d-flex flex-column text-dark fw-bolder fs-3 mb-0">
+    Medicare | {{ Auth::user()->name }}
+</h1>
                 <!--end::Title-->
                 <!--begin::Breadcrumb-->
                 <ul class="breadcrumb breadcrumb-separatorless fw-bold fs-7 pt-1">
@@ -92,8 +95,8 @@
                             <!--begin::Menu wrapper-->
                             <div class="cursor-pointer symbol symbol-35px symbol-md-40px" data-kt-menu-trigger="click"
                                 data-kt-menu-attach="parent" data-kt-menu-placement="bottom-start">
-                                <img src="{{ asset('Admin/images/team-4.jpg') }}" alt="user">
-                            </div>
+                                <img src="{{ Auth::user()->image ? asset('uploads/users/' . Auth::user()->image) : asset('Admin/images/default-image.png') }}" alt="user">
+                                </div>
                             <!--begin::User account menu-->
                             <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-color fw-semibold py-4 fs-6 w-275px"
                                 data-kt-menu="true">
@@ -102,17 +105,18 @@
                                     <div class="menu-content d-flex align-items-center px-3">
                                         <!--begin::Avatar-->
                                         <div class="symbol symbol-50px me-5">
-                                            <img alt="Logo" src="{{ asset('Admin/images/default-image.png') }}">
+                                        <img src="{{ Auth::user()->image ? asset('uploads/users/' . Auth::user()->image) : asset('Admin/images/default-image.png') }}" alt="user">
                                         </div>
                                         <!--end::Avatar-->
                                         <!--begin::Username-->
                                         <div class="d-flex flex-column">
-                                            <div class="fw-bold d-flex align-items-center fs-5">
-                                                Hussien said
+                                        <div class="fw-bold d-flex align-items-center fs-5">
+    {{ Auth::user()->name }}
+</div>
+<a href="#" class="fw-semibold text-muted text-hover-primary fs-7">
+    {{ Auth::user()->email }}
+</a>
 
-                                            </div>
-                                            <a href="#"
-                                                class="fw-semibold text-muted text-hover-primary fs-7">test@gmail.com</a>
                                         </div>
                                         <!--end::Username-->
                                     </div>
